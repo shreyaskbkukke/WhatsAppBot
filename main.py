@@ -11,6 +11,7 @@ ImageName = "TECHUTSAV posters_merged.jpg"
 def message():
     "set the message need to send here"
     new_line()
+    new_line()
     pg.typewrite("This is the content of bot")
     #pg.typewrite("") #text out put
     #mail.google.com  #open gmail
@@ -42,10 +43,11 @@ def new_line():
 def watermark():
     "to set bot watermark on the end of message"
     new_line()
+    new_line()
     pg.typewrite("_(this is bot automated message no need to replay)_")
     new_line()
-    pg.typewrite("                                  -Bot(4.1v) 🤖 ")
-
+    # pg.typewrite("                                  -Bot(4.1v) 🤖 ")
+    paste()
 def img_click(image):
     if pg.locateOnScreen(image, confidence=0.8)!= None:
         pic = pg.locateOnScreen(image, confidence=0.8)
