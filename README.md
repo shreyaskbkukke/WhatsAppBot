@@ -23,7 +23,7 @@ This Python script automates sending messages on WhatsApp using the web version.
 3. Set the configuration options in the script, such as `Images`, `Addmore`, and `ImageName`.
 4. Run the script:
     ```
-    python your_script_name.py
+    python main.py
     ```
 
 ## Configuration
